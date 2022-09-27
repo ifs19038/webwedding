@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Jovan & Tika</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="font-secondary text-white mb-n2">Jovan <span class="text-primary">&</span> Tika</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <!-- <a href="#story" class="nav-item nav-link">Story</a> -->
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                <h1 class="font-secondary text-white mb-n2">Jovan <span class="text-primary">&</span> Tika</h1>
+            </a>
+            <div class="navbar-nav mr-auto py-0">
+                <!-- <a href="#family" class="nav-item nav-link">Family</a> -->
+                <a href="#event" class="nav-item nav-link">Event</a>
+                <a href="#gift" class="nav-item nav-link">Gift</a>
+                <a href="#contact" class="nav-item nav-link">Thanks</a>
+                <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Jovan & Tika</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
+                            </div>
+                            <div style="padding-top:3%;">
+                                <audio id="audioNotifikasi" autoplay>
+                                    <source src="song/wedding.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button onclick="playAudio()" type="button" style="border-radius: 100%; border: none; " ><img src="img/icons8-play-50.png" alt="" style="width:20px; height:30px;"></button>
+                                    <button onclick="pauseAudio()" type="button" style="border-radius: 100%; border: none; "><img src="img/icons8-pause-50.png" alt="" style="width:20px; height:30px;"></button> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Jovan & Tika</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
+                            </div>
+                            <div style="padding-top:3%;">
+                                <audio id="audioNotifikasi" autoplay>
+                                    <source src="song/wedding.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <button onclick="playAudio()" type="button" style="border-radius: 100%; border: none; " ><img src="tempat/weeding-web/img/icons8-play-50.png" alt="" style="width:20px; height:30px;"></button>
+                                    <button onclick="pauseAudio()" type="button" style="border-radius: 100%; border: none; "><img src="tempat/weeding-web/img/icons8-pause-50.png" alt="" style="width:20px; height:30px;"></button> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-prev-icon mt-3"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-next-icon mt-3"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center coba" data-aos="fade-up" data-aos-duration="1000">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
+                <h1 class="font-secondary display-4">Jovan & Tika</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-center text-md-right" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="h-100 d-flex flex-column justify-content-center  p-5" >
+                        <h3 class="mb-3">Jovan First Daniel Sitinjak, M.Ed</h3>
+                        <div style=" font-weight: bold;">
+                            <p>Putra dari <p>
+                                <p class="font-secondary font-weight-normal text-muted mb-3" >St. Drs. J.R Sitinjak, M.Pd </p><p>dan</p> <p class="font-secondary font-weight-normal text-muted mb-3"> R. br. Sinurat, S.Pd</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;" data-aos="fade-up" data-aos-duration="1000">
+                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; border-radius: 10%;">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;" data-aos="fade-up" data-aos-duration="1000">
+                    <img class="position-absolute w-100 h-100" src="img/about_2.jpg" style="object-fit: cover; border-radius: 10%;">
+                </div>
+                <div class="col-md-6 p-0 text-center text-md-left" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="h-100 d-flex flex-column justify-content-center  p-5">
+                        <h3 class="mb-3">Tika Octaviola Diliyanti Gajah, S.Pd</h3>
+                        <div style=" font-weight: bold;">
+                            <p>Putri dari <p>
+                                <p class="font-secondary font-weight-normal text-muted mb-3" >St. T. Gajah, S.Pd.  </p><p>dan</p> <p class="font-secondary font-weight-normal text-muted mb-3"> M. br. Malau</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Story Start -->
+    <!-- <div class="container-fluid py-5" id="story">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Story</h6>
+                <h1 class="font-secondary display-4">Our Love Story</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">First Meet</h4>
+                            <p class="text-uppercase mb-2">01 Jan 2050</p>
+                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">First Date</h4>
+                            <p class="text-uppercase mb-2">01 Jan 2050</p>
+                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Proposal</h4>
+                            <p class="text-uppercase mb-2">01 Jan 2050</p>
+                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Enagagement</h4>
+                            <p class="text-uppercase mb-2">01 Jan 2050</p>
+                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Story End -->
+
+
+    <!-- Gallery Start -->
+    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
+        <div class="section-title position-relative text-center" style="margin-bottom: 120px;" data-aos="fade-up" data-aos-duration="1000">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
+            <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
+            <i class="far fa-heart text-white"></i>
+        </div>
+        <div class="owl-carousel gallery-carousel" data-aos="fade-up" data-aos-duration="1000">
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                <a href="img/gallery-1.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                <a href="img/gallery-2.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                <a href="img/gallery-3.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                <a href="img/gallery-4.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                <a href="img/gallery-6.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-7.jpeg" alt="">
+                <a href="img/gallery-7.jpeg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-8.jpeg" alt="">
+                <a href="img/gallery-8.jpeg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-9.jpeg" alt="">
+                <a href="img/gallery-9.jpeg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Event Start -->
+    <div class="container-fluid py-5" id="event">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6>
+                <h1 class="font-secondary display-4">Our Wedding Event</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-6 text-center">
+                    <h5 class="font-weight-normal text-muted mb-3 pb-3">Tuhan membuat segala sesuatu indah pada Waktu-Nya, indah ketika Dia mempertemukan kami bukan karena sebuah kebetulan, tapi karena rencana-Nya sehingga Dia menetapkan kami dalam sebuah ikatan Pernikahan Kudus, besar harapan kami kiranya Saudara dan Saudari turut Bersukacita & Mendoakan pernikahan kami.</h5>
+                </div>
+            </div>
+            <div class="section-title position-relative text-center" data-aos="fade-up" data-aos-duration="1000">
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row">
+                <div class="col-md-6 border-right border-primary" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+
+                        <h4 class="mb-3">Pemberkatan Pernikahan</h4>
+                        <p class="mb-0">Kamis, 06 Oktober 2022</p>
+                        <p class="mb-0">Pkl 10.00 WIB</p>
+                        <br>
+                        <p class="mb-0" style="font-size: 20px ; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lokasi</p>
+                        <a href="https://goo.gl/maps/hUr7b6GmXdNSrhGY9" style="color:black;"><p class="mb-2">Gereja HKBP JETUN Ressort Jetun Tanjung Gusta
+                            alamat: Jl. Gereja Jetun No. 8 Tanjung Gusta - Medan</p></a>
+
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="text-center text-md-left ml-md-3">
+
+                        <h4 class="mb-3">Adat dan Resepsi</h4>
+                        <p class="mb-0">Kamis, 06 Oktober 2022</p>
+                        <p class="mb-0">Pkl 12.00 WIB s.d Selesai</p>
+                        <br>
+                        <p class="mb-0" style="font-size: 20px ; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Lokasi</p>
+                        <a href="https://goo.gl/maps/cx8RFbMUaWSrPGbM7" style="color:black;"><p class="mb-2">Gedung Taman Sari Indah
+                            alamat: Jl. Kapten Muslim, Medan</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Event End -->
+
+    <!-- gift start -->
+    <div class="container-fluid py-5" id="gift">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gift</h6>
+                <h1 class="font-secondary display-4">Wedding Gift</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center " data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-8 text-center">
+                    <div class="card shadow-lg" style="width: 100%; border-radius: 20px;">
+                        <img src="img/mandiri.png" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-size: 20px; font-weight:bold;" id="p1">1050014861458</p>
+                          <button  class="btn btn-primary" onclick="copyToClipboard('#p1')">Copy</button>
+                          <p class="card-text pt-3">A.n Tika octaviola gajah</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-8 text-center">
+                    <div class="card shadow-lg" style="width: 100%; border-radius: 20px;">
+                        <img src="img/bri.png" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-size: 20px; font-weight:bold;" id="p2">532101019845531</p>
+                          <button  class="btn btn-primary" onclick="copyToClipboard('#p2')">Copy</button>
+                          <p class="card-text pt-3">A.n Tika octaviola gajah</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-8 text-center">
+                    <div class="card shadow-lg" style="width: 100%; border-radius: 20px;">
+                        <img src="img/danamon.png" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-size: 20px; font-weight:bold;" id="p3">003632358531</p>
+                          <button  class="btn btn-primary" onclick="copyToClipboard('#p3')">Copy</button>
+                          <p class="card-text pt-3">A.n Tika octaviola gajah</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-8 text-center">
+                    <div class="card shadow-lg" style="width: 100%; border-radius: 20px;">
+                        <img src="img/bri.png" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-size: 20px; font-weight:bold;" id="p5">033601104833502</p>
+                          <button  class="btn btn-primary" onclick="copyToClipboard('#p5')">Copy</button>
+                          <p class="card-text pt-3">A.n Jovan First Daniel Sitinjak</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-8 text-center">
+                    <div class="card shadow-lg" style="width: 100%; border-radius: 20px;">
+                        <img src="img/bni.png" class="card-img-top p-5" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-size: 20px; font-weight:bold;" id="p4">0376005681</p>
+                          <button  class="btn btn-primary" onclick="copyToClipboard('#p4')">Copy</button>
+                          <p class="card-text pt-3">A.n Jovan First Daniel Sitinjak</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- gift end -->
+
+
+    <!-- Friends & Family Start -->
+    <!-- <div class="container-fluid py-5" id="family">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Friends & Family</h6>
+                <h1 class="font-secondary display-4">Groomsmen & Bridesmaid</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".first">Groomsmen</li>
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".second">Bridesmaid</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/groomsmen-1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Full Name</h4>
+                            <p class="text-uppercase">Best Friend</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/bridesmaid-1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Full Name</h4>
+                            <p class="text-uppercase">Best Friend</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/groomsmen-2.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Full Name</h4>
+                            <p class="text-uppercase">Best Friend</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/bridesmaid-2.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Full Name</h4>
+                            <p class="text-uppercase">Best Friend</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/groomsmen-3.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Full Name</h4>
+                            <p class="text-uppercase">Best Friend</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/bridesmaid-3.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Full Name</h4>
+                            <p class="text-uppercase">Best Friend</p>
+                            <div class="d-inline-block">
+                                <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Friends & Family End -->
+
+
+    <!-- RSVP Start -->
+    <!-- <div class="container-fluid py-5" id="rsvp">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center" data-aos="fade-up" data-aos-duration="1000">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
+                <h1 class="font-secondary display-4">Join Our Party</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-12">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Email"/>
+                                </div> -->
+                            </div>
+                            <!-- <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
+                                        <option>Number of Guest</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
+                                        <option>I'm Attending</option>
+                                        <option>All Events</option>
+                                        <option>Wedding Party</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message" required="required"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- RSVP End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">Thank You</h1>
+                <i class="far fa-heart text-white"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+            function copyToClipboard(element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(element).text()).select();
+                document.execCommand("copy");
+                $temp.remove();
+            }
+    </script>
+    <script type="text/javascript">
+            var el = document.getElementById("audioNotifikasi"); 
+            function playAudio() { 
+              el.play(); 
+            } 
+            function pauseAudio() { 
+              el.pause(); 
+            } 
+        </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

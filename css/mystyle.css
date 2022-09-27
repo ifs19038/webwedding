@@ -1,0 +1,15 @@
+.pengantin{
+  align-items: center
+  }
+.deskripsi-pria{
+  margin-left: 20%;
+}
+.deskripsi-wanita{
+  margin-right: 18%;
+}
+@media (max-width: 1200px) {
+  .pengantin{
+    display: none;
+  }
+  
+}

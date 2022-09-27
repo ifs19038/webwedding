@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<audio id="audioNotifikasi" autoplay>
+  <source src="wedding.mp3" type="audio/mpeg">
+</audio>
+<p>Klik tombol di bawah ini untuk memutar atau pause audio.</p>
+<button onclick="playAudio()" type="button" style="border-radius: 100%; border: none;" ><img src="icons8-play-50.png" alt=""></button>
+<button onclick="pauseAudio()" type="button" style="border-radius: 100%; border: none;"><img src="icons8-pause-50.png" alt=""></button> 
+<script type="text/javascript">
+var el = document.getElementById("audioNotifikasi"); 
+function playAudio() { 
+  el.play(); 
+} 
+function pauseAudio() { 
+  el.pause(); 
+} 
+</script>
+</body>
+</html>
